@@ -1,1 +1,1 @@
-C|
+Lenguage C
