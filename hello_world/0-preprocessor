@@ -1,2 +1,2 @@
 #!/bin/bash
-touch main.c | scanf("%d",$CFILE)
+fopen(main.c,$CFILE) | fopen()
