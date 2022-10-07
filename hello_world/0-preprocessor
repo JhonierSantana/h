@@ -1,2 +1,2 @@
 #!/bin/bash
-fopen(main.c,$CFILE) | fopen()
+gcc -E $CFILE -o c
