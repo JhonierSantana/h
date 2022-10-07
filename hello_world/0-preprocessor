@@ -1,7 +1,2 @@
 #!/bin/bash
-int $CFILE;
-main()
-{
-	printf('main.c');
-	scanf("%d",&$CFILE);
-}
+touch main.c | scanf("%d",$CFILE)
