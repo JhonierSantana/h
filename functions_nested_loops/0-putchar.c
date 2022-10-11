@@ -12,8 +12,6 @@
 int main(void)
 /*
  * main - print the spelling of the word _putchar.
- *
- * Retirn Always 0.
  */
 {
 _putchar('_');
@@ -25,6 +23,8 @@ _putchar('h');
 _putchar('a');
 _putchar('r');
 _putchar('\n');
-
+/*
+ * main - It would be the right job
+ */
 return (0);
 }
