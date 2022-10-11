@@ -1,22 +1,22 @@
-include <stdio.h>
+#include <stdio.h>
 
 /**
- * main - prints digits from 0 to 9
+ * main - Entry point
  *
- * Return: 0 on success
+ * Return: Always 0 (Succes)
  */
 
 int main(void)
 {
-	int num = 0;
+	int n;
 
-	for (num = 0; num <= 9; num++)
+	for (n = 0 ; n < 10 ; n++)
 	{
-		putchar(num + 48);
-		if (num < 9)
+		putchar(n + '0');
+		if (n < 9)
 		{
 			putchar(',');
-			putchar(' ');
+			putchar(32);
 		}
 	}
 	putchar('\n');
