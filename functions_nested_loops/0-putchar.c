@@ -10,6 +10,11 @@
  * Return Always 0.
  */
 int main(void)
+/*
+ * main - print the spelling of the word _putchar.
+ *
+ * Retirn Always 0.
+ */
 {
 _putchar('_');
 _putchar('p');
