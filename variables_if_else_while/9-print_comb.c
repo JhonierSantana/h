@@ -1,22 +1,33 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 
+/* betty style doc for function main goes there */
 /**
-  * main - Prints a serie of numbers with commas
-  *
-  * Return: Always (Success);
-  */
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	int c;
-	for (c = '0'; c <= '9'; c++)
+	int i;
+
+	i = 48;
+	while  (i < 58)
 	{
-		putchar(c);
-		if (c != '9')
+		putchar(i);
+		if (i !=  57)
 		{
-			putchar(',');
-			putchar(' ');
+			putchar(44);
+			putchar(32);
+			i++;
+		}
+		else
+		{
+			i++;
 		}
 	}
 	putchar('\n');
+
 	return (0);
-}
+}}
