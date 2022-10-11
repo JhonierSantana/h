@@ -1,16 +1,15 @@
-	/*
- 	* File: main.c
- 	*
- 	* Auth: Jhonier Santana
- 	*
- 	*/
+/*
+ * File: 0-holberton.c
+ *
+ * Auth: Jhonier Santana
+ *
+ */
 #include "main.h"
-	/**
- 	* main - Prints "_putchar" followed by a new line.
-	 *
- 	* Return Always 0.
- 	*
- 	*/
+/**
+ * main - Prints "_putchar" followed by a new line.
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
 	_putchar('_');
@@ -21,7 +20,7 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-	_putchar('\n');
 
 	return (0);
+
 }
