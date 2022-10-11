@@ -14,10 +14,9 @@ int main(void)
  * main -  print the spelling of the word "_putchar".
  *
  * Return Always (Sucess).
+ *
+ * main - Return.
  */
-	/* 
-	 * main - Return.
-	 */
 {
 _putchar('_');
 _putchar('p');
