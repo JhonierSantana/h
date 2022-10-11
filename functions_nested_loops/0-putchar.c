@@ -11,7 +11,7 @@
  */
 int main(void)
 /**
- * print the spelling of the word "_putchar".
+ * main -  print the spelling of the word "_putchar".
  *
  * Return Always 0.
  */
