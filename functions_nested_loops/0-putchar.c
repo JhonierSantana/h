@@ -1,5 +1,5 @@
 /*
- * File: 0-holberton.c
+ * File: main.c
  * Auth: Jhonier Santana
  *
  */
