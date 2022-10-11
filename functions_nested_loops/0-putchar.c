@@ -15,7 +15,8 @@ int main(void)
  *
  * Return Always (Sucess).
  */
-	/* main - Return.
+	/* 
+	 * main - Return.
 	 */
 {
 _putchar('_');
