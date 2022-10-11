@@ -13,7 +13,7 @@ int main(void)
 /*
  * main -  print the spelling of the word "_putchar".
  *
- * Return Always 0.
+ * Return Always (Sucess).
  */
 {
 _putchar('_');
