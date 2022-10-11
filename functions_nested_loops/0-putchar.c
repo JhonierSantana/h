@@ -10,7 +10,7 @@
  * Return Always 0.
  */
 int main(void)
-/*
+/**
  * main - print the spelling of the word _putchar.
  */
 {
@@ -23,7 +23,7 @@ _putchar('h');
 _putchar('a');
 _putchar('r');
 _putchar('\n');
-/*
+/**
  * main - It would be the right job
  */
 return (0);
