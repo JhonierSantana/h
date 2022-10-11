@@ -1,21 +1,14 @@
 #include<stdio.h>
 
 /**
- * main - Prints _putchar.
+ * main - Entry point 
  *
- * Returns: Always 0 (Succes).
+ * Returns: Always 0 (Succes)
  */
 
 int main (void)
 {
-	putchar('_');
-	puthcar('p');
-	puthcar('u');
-	puthcar('t');
-	puthcar('c');
-	puthcar('h');
-	puthcar('a');
-	puthcar('r');
+	putchar('_putchar')
 	putchar('\n');
 
 	return 0;
