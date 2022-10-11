@@ -1,4 +1,4 @@
-#include<main.h>
+#include<stdio.h>
 
 /**
  * main - Prints _putchar.
@@ -6,7 +6,7 @@
  * Returns: Always 0 (Succes).
  */
 
-int main.h(void)
+int main (void)
 {
 	putchar('_putchar');
 	putchar('\n');
