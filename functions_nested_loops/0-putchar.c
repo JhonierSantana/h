@@ -19,6 +19,9 @@ int main(void)
  */
 {
 _putchar('_');
+/*
+ * main - Returns.
+ */
 _putchar('p');
 _putchar('u');
 _putchar('t');
