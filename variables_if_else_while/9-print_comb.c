@@ -1,26 +1,24 @@
 include <stdio.h>
 
 /**
-  * main - Prints a serie of numbers with commas
-  *
-  * Return: Always (Success);
-  */
+ * main - prints digits from 0 to 9
+ *
+ * Return: 0 on success
+ */
+
 int main(void)
 {
-	int c;
+	int num = 0;
 
-	for (c = '0'; c <= '9'; c++)
+	for (num = 0; num <= 9; num++)
 	{
-		putchar(c);
-
-		if (c != '9')
+		putchar(num + 48);
+		if (num < 9)
 		{
 			putchar(',');
 			putchar(' ');
 		}
 	}
-
 	putchar('\n');
-
 	return (0);
 }
