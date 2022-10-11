@@ -8,15 +8,15 @@
 
 int main (void)
 {
-	_putchar('_');
-	_puthcar('p');
-	_puthcar('u');
-	_puthcar('t');
-	_puthcar('c');
-	_puthcar('h');
-	_puthcar('a');
-	_puthcar('r');
-	_putchar('\n');
+	putchar('_');
+	puthcar('p');
+	puthcar('u');
+	puthcar('t');
+	puthcar('c');
+	puthcar('h');
+	puthcar('a');
+	puthcar('r');
+	putchar('\n');
 
 	return 0;
 }
