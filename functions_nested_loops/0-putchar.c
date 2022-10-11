@@ -10,18 +10,8 @@
  * Return Always 0.
  */
 int main(void)
-/*
- * main -  print the spelling of the word "_putchar".
- *
- * Return Always (Sucess).
- *
- * main - Return.
- */
 {
 _putchar('_');
-/*
- * main - Returns.
- */
 _putchar('p');
 _putchar('u');
 _putchar('t');
