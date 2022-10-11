@@ -6,7 +6,7 @@
  * Returns: Always 0 (Succes).
  */
 
-int main(void)
+int main.h(void)
 {
 	putchar('_putchar');
 	putchar('\n');
