@@ -1,6 +1,5 @@
 /*
  * File: 1-alphabet.c
- *
  * Auth: Jhonier Santana
  */
 #include "main.h"
