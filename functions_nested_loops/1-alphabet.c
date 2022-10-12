@@ -5,6 +5,8 @@
 #include "main.h"
 /**
  * print_alphabet - prints the alphabet, in lowercase.
+ *
+ * Returns: Always 0.
  */
 void print_alphabet(void)
 {
