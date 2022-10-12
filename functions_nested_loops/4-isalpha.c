@@ -10,7 +10,7 @@
  *
  * Return: 1 if character is lowercase, 0 otherwise.
  */
-int _isalpha(int c);
+int _isalpha(int c)
 {
 if(c >= 'A' && c <= 'Z')
 return (1);
