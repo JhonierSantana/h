@@ -5,7 +5,7 @@
 #include "main.h"
 /**
  * print_sign - prints the sign of a number.
- * @c: The character to be checked.
+ * @n: The number of whic the sign will be printed.
  *
  * Return: 1 if sign of a number function.
  */
