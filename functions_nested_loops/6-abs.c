@@ -6,12 +6,15 @@
 #include<stdlib.h>
 /**
  * _abs - prints absolute value of an integer
- * @int
+ * @n: The integer to be computed.
+ *
+ * Return: The absolute value of the integer.
  */
 
-int _abs(int)
+int _abs(int n)
 {
-	int a;
-	printf("value absolute(value absolute):";
-	scanf("%d",&a);
+if ( n >= 0)
+return (n);
+else
+return (-n);
 }
