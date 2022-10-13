@@ -22,7 +22,7 @@ _putchar((hour % 10) + '0');
 _putchar(':');
 _puthcar((minute / 10) + '0');
 _putchar((minute % 10) + '0');
-_puthcar('\n);
+_puthcar('\n');
 }
 }
 }
