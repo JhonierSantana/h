@@ -14,7 +14,7 @@ int print_last_digit(int n)
 {
 if ((n % 10) > 5)
 {
-	printf("Las digit of %d is %d \n", n, n % 10);
+	_putchar("Las digit of %d is %d \n", n, n % 10);
 }
 	return (n % 10);
 }
