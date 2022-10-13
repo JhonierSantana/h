@@ -5,16 +5,18 @@
 #include "main.h"
 
 /**
- * _last digit - prints the last digit of a number
- * @n: Digit of number
+ * print_last digit - prints the last digit of a number.
+ * @n: The number is question.
  *
- * Return the value of the last digit
+ * Return the value of the last digit.
  */
 int print_last_digit(int n)
 {
-if ((n % 10) > 5)
-{
-	_putchar("Las digit of %d is %d \n", n, n % 10);
-}
-	return (n % 10);
+int last_digit = n % 10;
+if (last_digit < 0)
+last_digit *= -1;
+
+_putchar(last_digit + '0');
+
+return (last_digit);	
 }
