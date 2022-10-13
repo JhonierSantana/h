@@ -12,7 +12,7 @@
 
 void print_to_98(int n);
 {
-	for(n = '0'; <= '98'; n++)
+	for(n = '0'; <= '99'; n++)
 		_putchar('n');
 		_putchar(',');
 		_putchar(' ');
