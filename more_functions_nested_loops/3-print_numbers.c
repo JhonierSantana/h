@@ -9,10 +9,12 @@
  *
  * Return: Always 0.
  */
-void print_numbers(void);
+void print_numbers(void)
 {
-	int n;
-	if (n >= 0 && n <= 9);
-	_putchar('n');
-	_putchar('\n');
+	int a;
+	for ( a = 48; a < 58; a++)
+	{
+		_putchar(a);
+	}
+	_putchar ('\n');
 }
