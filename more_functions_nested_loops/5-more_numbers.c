@@ -1,22 +1,27 @@
 /*
  * File: 5-more_numbers.c
- * Auth: Jhonier Santana
+ * Author: Imanol Asolo
  */
 #include "main.h"
-/**
- * more_numbers - prints 10 times the numbers.
- *
- * Return always.
- */
 
+/**
+ * more_numbers -  checks for checks for a digit (0 through 9).
+ * Return: Always 0.
+ */
 void more_numbers(void)
 {
-int n, b;
-for (n = '48'; n = '57'; n++)
-	if (b = 0; b = '14'; b++)
-	{
-		_putchar(n);
-		_putchar(b);
-	}
-		_putchar('\n');
+int a, b;
+
+for (a = 0; a < 10; a++)
+{
+for (b = 0; b < 15; b++)
+{
+if (b / 10 != 0)
+{
+_putchar(b / 10 + '0');
+}
+_putchar(b % 10 + '0');
+}
+_putchar('\n');
+}
 }
