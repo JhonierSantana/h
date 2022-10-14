@@ -5,7 +5,7 @@
 #include "main.h"
 #include<stdio.h>
 /**
- * mult - multiples two intefers.
+ * mul - multiples two intefers.
  * @a,b: the name of variable.
  *
  * Return: Always 0.
