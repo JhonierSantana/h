@@ -1,6 +1,6 @@
 /*
  * File: 7-print_diagonal.c
- * Author: Imanol Asolo
+ * Author: Jhonier Santana
  */
 #include "main.h"
 
