@@ -3,18 +3,19 @@
  * Auth: Jhonier Santana
  */
 #include "main.h"
-#include<stdio.h>
 /**
  * mul - multiples two intefers.
- * @a,b: the name of variable.
+ * @a: the name of variable
+ * @b: the name of variable.
  *
  * Return: Always 0.
  */
 
 int mult(int a, int b)
 {
-int mul;
-mul = a * b;
+	int mul;
 
-return (mul);
+	mul = a * b;
+
+	return (mul);
 }
