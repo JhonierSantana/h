@@ -4,9 +4,9 @@
  */
 #include "main.h"
 /**
- * mul - checks for checks for a digit (0 through 9).
- * @a: variable
- * @b: variable
+ * mul - checks for checks for a digit.
+ * @a: a - variable
+ * @b: b - variable
  * Return: Always 0.
  */
 
