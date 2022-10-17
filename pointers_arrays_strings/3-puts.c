@@ -6,11 +6,13 @@
 #include "main.h"
 
 /**
- * _puts - prints a string, followed by a new line.
- *
+ * _puts - Prints a string to stdout.
+ * @str: The string to be printed.
  */
-
 void _puts(char *str)
 {
-	printf("%s\n", *str);
+while (*str)
+_putchar(*str++);
+
+_putchar('\n');
 }
