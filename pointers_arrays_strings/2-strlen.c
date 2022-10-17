@@ -19,4 +19,4 @@ while (*s++)
 length++;
 
 return (length);
-
+}
