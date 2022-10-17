@@ -3,7 +3,6 @@
  * Auth: Jhonier Santana
  */
 #include "main.h"
-
 /**
  * reset_to_98 - that takes a pointer 
  *
