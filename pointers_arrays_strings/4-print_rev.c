@@ -1,19 +1,22 @@
-/*
- * File: 4-print_rev.c
- * Auth: Jhonier Santana
- */
-
 #include "main.h"
 
 /**
- * print_rev - prints a string, in reverse, followed by a new line.
+ * print_rev - prints a string in stdout in reverse
+ * @s: string to print
  *
- * @s: The pointer.
+ * Return: void
  */
-
 void print_rev(char *s)
 {
-	int length = -1
-		for (int length = -1; *s >=0; *s++);
+int i = 0;
 
+while (*(s + i))
+i++;
+i = i - 1;
+while (i >= 0)
+{
+_putchar(*(s + i));
+i--;
+}
+_putchar('\n');
 }
