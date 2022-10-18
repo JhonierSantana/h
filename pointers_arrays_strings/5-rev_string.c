@@ -1,8 +1,12 @@
+/*
+ * File: 5-rev_string.c
+ * Author: Jhonier Santana
+ */
 #include "main.h"
 
 /**
- * rev_string - write a function that reverses a string
- * @s: string to print
+ * rev_string - reverses a string
+ * @s: string to reverse
  *
  * Return: void
  */
@@ -11,16 +15,16 @@ void rev_string(char *s)
 int i = 0, j = 0;
 char str[500];
 
-while (*(s + i));
+while (*(s + i))
 {
 *(str + i) = *(s + i);
-i++
+i++;
 }
-i = i -1;
+i = i - 1;
 while (i >= 0)
 {
-*(s + i) = *(str + i);
+*(s + i) = *(str + j);
 j++;
 i--;
 }
-}
+
