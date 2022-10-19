@@ -1,6 +1,7 @@
 /*
  * Auth: Jhonier Santana
  */
+#include "main.h"
 
 /**
  * _strncpy - copies n bytes of src to the dest string
@@ -8,7 +9,7 @@
  * @src: string being copied
  * @n: largest number of bytes to copy
  *
- * Return: addres of dest
+ * Return: address of dest
  */
 char *_strncpy(char *dest, char *src, int n)
 {
@@ -17,12 +18,13 @@ char *_strncpy(char *dest, char *src, int n)
 	i = 0;
 	while (i < n && *(src + i))
 	{
-		*(dest + i) = *(src + 1);
+		*(dest + i) = *(src + i);
 		i++;
 	}
 	while (i < n)
 	{
 		*(dest + i) = '\0';
+		i++;
 	}
 	return (dest);
 }
