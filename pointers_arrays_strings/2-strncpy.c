@@ -1,5 +1,4 @@
 /*
- * File: 2-strncpy.c
  * Auth: Jhonier Santana
  */
 
