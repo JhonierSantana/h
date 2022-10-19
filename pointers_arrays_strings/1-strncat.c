@@ -1,5 +1,4 @@
 /*
- * File: 1-strncat.c
  * Auth: Jhonier Santana
  */
 
