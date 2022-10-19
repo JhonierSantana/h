@@ -1,5 +1,4 @@
 /*
- * File: 3-strcmp.c
  * Auth: Jhonier Santana
  */
 
