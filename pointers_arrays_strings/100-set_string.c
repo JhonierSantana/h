@@ -10,7 +10,7 @@
  *
  * Return: void
  */
-void set_string(char **s, char *to)
+void rev_string(char **s, char *to)
 {
-	**s = to;
+	*s = to;
 }
