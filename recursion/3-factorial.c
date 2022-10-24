@@ -1,7 +1,6 @@
 /*
  * Auth: Jhonier Santana
  */
-
 #include "main.h"
 
 /**
