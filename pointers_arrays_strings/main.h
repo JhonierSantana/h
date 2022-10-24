@@ -3,9 +3,7 @@
 
 /**
  * File: main.h
- * Auth: Imanol Asolo
- * Desc: Header file containing prototypes for all functions
- *       used in the 0x04-pointers_arrays_strings directory.
+ * Auth: Jhonier Santana
  */
 
 #include <stdlib.h>
