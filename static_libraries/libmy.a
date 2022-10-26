@@ -1,3 +1,4 @@
 #ifndef LYMBY.A
 #define LYMBY.A
 int _putchar(char c);
+#endif
