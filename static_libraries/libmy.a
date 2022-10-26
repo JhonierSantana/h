@@ -1,1 +1,1 @@
-ar rc limby.a
+int _putchar
