@@ -1,17 +1,20 @@
 /*
- * File: 10-add.c
+ * File: 6-abs.c
  * Auth: Jhonier Santana
  */
 #include "main.h"
+#include<stdlib.h>
 /**
- * add - adds two integers.
- * @num1: The first integer to be added.
- * @num2: The second integer to be added.
+ * _abs - prints absolute value of an integer
+ * @n: The integer to be computed.
  *
- * Return: The result of the addition.
+ * Return: The absolute value of the integer.
  */
 
-int add(int num1, int num2)
+int _abs(int n)
 {
-	return (num1 + num2);
+if (n >= 0)
+return (n);
+else
+return (-n);
 }
