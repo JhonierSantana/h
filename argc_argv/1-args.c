@@ -5,7 +5,7 @@
 /**
 * main - prints the number of arguments passsed into it
 * @argc: Argument
-*
+* @argv: Argument
 * Return: 0
 */
 int main(int argc, char **argv)
@@ -13,7 +13,7 @@ int main(int argc, char **argv)
 	int i;
 	for(i = 0; i < argc; i++)
 	{
-	printf("%d %s\n", i, argv[i]);
+	printf("%d\n", i, argv[i]);
 	}
 	return (0);
 }
