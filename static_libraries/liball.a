@@ -1,10 +1,4 @@
 !<arch>
-source_0/       0           0     0     644     87        `
-#include "main.h"
-
-int main () {
-	FILE * flujo = fopen ("main.h", "rb");
-
-	retunr 0;
-}
+source_0/       0           0     0     644     11        `
+nm *main.h
 

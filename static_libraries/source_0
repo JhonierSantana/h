@@ -1,7 +1,1 @@
-#include "main.h"
-
-int main () {
-	FILE * flujo = fopen ("main.h", "rb");
-
-	retunr 0;
-}
+nm *main.h
