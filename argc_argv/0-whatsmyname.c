@@ -1,10 +1,16 @@
 #include <stdio.h>
 
+/**
+ * whatsmyname - prints its name, followed by a new line
+ *
+ * Return: 0.
+ */
+
 int main (int argc, char *argv[])
 {
-	if(argc!=2){
-		printf("how my name is?\n");
-		return (1);
+	for(int i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[i]);
 	}
-	printf("my name is %s",argv[1]);
+	return (0);
 }
