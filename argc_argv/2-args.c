@@ -11,7 +11,10 @@
  */
 int main(int argc, char *argv[])
 {
-	argc = argc;
-	printf("%s\n", argv[ - 1]);
-		return 0;
+	int counter;
+	for(counter=0; counter<argc; counter++)
+	{
+		printf("argv[%2d]: %s\n",counter,argv[counter]);
+	}
+	return 0;
 }
