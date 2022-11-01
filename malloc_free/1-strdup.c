@@ -15,12 +15,11 @@ char *_strdup(char *str)
 	unsigned int i, j;
 	char *s;
 
-	if (str = NULL)
+	if (str == NULL)
 	{
 		return (NULL);
 	}
-	
-	for (i = 0; i < str[i]; i++);
+	for (i = 0; str[i]; i++);
 	s = malloc(i * sizeof(char));
 	
 	if (s == NULL)
