@@ -7,7 +7,7 @@
  * _strdup - returns a pointer to a newly allocated space in memomry
  * @str: pointer
  *
- * Return: pointer to the duplicated string, in returns NULL if insufficient meomry was available
+ * Return: pointer to the duplicated string.
  */
 
 char *_strdup(char *str)
@@ -19,7 +19,9 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	for (i = 0; str[i]; i++);
+	for (i = 0; str[i]; i++)
+		;
+	i++;
 	s = malloc(i * sizeof(char));
 	
 	if (s == NULL)
