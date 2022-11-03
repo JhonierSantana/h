@@ -6,15 +6,16 @@
 
 /**
  * malloc_checked - that allocates memory
- * @b: pointer 
+ * @b: memory to allocate 
  *
  * Return: 0.
  */
 void *malloc_checked(unsigned int b)
 {
-int *a = 0;
-a = malloc(b);
-if (a == NULL)
-exit(98);
-return (a);
+	int *a = 0;
+
+	a = malloc(b);
+	if (a == NULL)
+		exit(98);
+	return (a);
 }
