@@ -3,6 +3,7 @@
  */
 #include "main.h"
 #include <stdlib.h>
+
 /**
  * malloc_checked - that allocates memory
  * @b: pointer 
