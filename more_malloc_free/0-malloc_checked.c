@@ -1,9 +1,5 @@
-/*
- * Auth: Jhonier Santana
- */
 #include "main.h"
 #include <stdlib.h>
-
 /**
  * malloc_checked - that allocates memory
  * @b: memory to allocate 
