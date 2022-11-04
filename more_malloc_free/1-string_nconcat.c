@@ -28,7 +28,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (d == NULL)
 	{
-		return (NULL)
+		return (NULL);
 	}
 
 	while (*s1 != '\0')
