@@ -1,4 +1,4 @@
-#include "funcion_pointers.h"
+#include "function_pointers.h"
 /**
  * print_name - function print the name
  * @name: variable char 
