@@ -9,4 +9,4 @@
  */
 int sum_them_all(const unsigned int n, ...);
 
-#endif
+#endif /* _VARIADIC_FUNCTIONS_H_ */
