@@ -2,7 +2,7 @@
 
 /**
  * free_list - frees a list_t list.
- * @head: pointer 
+ * @head: pointer
  */
 
 void free_list(list_t *head)
