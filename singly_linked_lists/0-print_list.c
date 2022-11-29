@@ -18,7 +18,7 @@ a += 1;
 
 }
 
-printf("[%i] %s\n", h->len, h->str);
+printf("[%d] %s\n", h->len, h->str);
 a += 1;
 h = h->next;
 }
