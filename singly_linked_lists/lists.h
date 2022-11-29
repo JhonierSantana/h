@@ -7,7 +7,7 @@
 
 /*
  * list_s - struc name
- * @str: string 
+ * @str: string
  * @len: length of the string
  * @next: points to the next node
  */
