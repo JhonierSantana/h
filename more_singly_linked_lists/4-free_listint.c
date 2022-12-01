@@ -10,8 +10,5 @@ void free_listint(listint_t *head)
 {
 	if (head && head->next)
 		free_listint(head->next);
-	if (head && head->n)
-		free(head->n);
-	if (head)
-		free(head);
+	free(head);
 }
