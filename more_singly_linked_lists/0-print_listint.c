@@ -6,7 +6,7 @@
  * Return: number of nodos
  */
 
-size_t print_listint(const listint_t *h);
+size_t print_listint(const listint_t *h)
 {
 	unsigned int list_size = 0;
 
