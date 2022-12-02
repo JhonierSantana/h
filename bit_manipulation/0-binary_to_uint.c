@@ -9,6 +9,7 @@ unsigned int binary_to_uint(const char *b)
 {
 	int binary_max_idx = 0, actual_result = 1;
 	unsigned int converted_int = 0;
+
 	if (!b)
 		return (0);
 
