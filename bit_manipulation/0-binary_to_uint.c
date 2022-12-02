@@ -14,7 +14,7 @@ unsigned int binary_to_uint(const char *b)
 
 	binary_max_idx = strlen(b) - 1;
 
-	while (binary_max_idx)
+	while (binary_max_idx >= 0)
 	{
 		if (b[binary_max_idx] != '0' && b[binary_max_idx] != '1')
 			return (0);
