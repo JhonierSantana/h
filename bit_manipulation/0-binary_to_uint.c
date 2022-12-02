@@ -23,5 +23,5 @@ unsigned int binary_to_uint(const char *b)
 		actual_result <<= 1;
 		binary_max_idx--;
 	}
-	return (converted_int)
+	return (converted_int);
 }
