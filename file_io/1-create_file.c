@@ -10,21 +10,21 @@
 
 int create_file(const char *filename, char *text_content)
 {
-	int fd, w, a;
+	int fd, wi, a;
 
 	if (filename == NULL)
 		return (-1);
 
-	fd = open(filename, O_RDWR, O_TRUNC);
+	fd = open(filename, O_RDwR, O_TRUNC);
 	if (fd == -1)
-		fd = open(filename, O_RDWR, O_CREAT, O_TRUNC);
+		fd = open(filename, O_RDwR, O_CREAT, O_TRUNC);
 
 	if (text_content)
 	{
 		for (a = 0; text_content[a]; a++)
 			continue;
-		w = write(fd, text_content, a);
-		if (a == -1)
+		wi = write(fd, text_content, a);
+		if (wi == -1)
 			return (-1);
 	}
 	close(fd);
