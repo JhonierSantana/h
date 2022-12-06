@@ -2,39 +2,23 @@
 
 int create_file(const char *filename, char *text_content)
 {
-	int fd, r, w;
-	char *buff;
+	int fd, w, a;
 
 	if (filename == NULL)
-			return (0);
+			return (-1);
 	
-	buff = (char *)malloc(((sizeof(char)) * text_content) + 1);
-	if (buff == NULL)
-			return (0);
 	
-	fd = open(filename, O_CREAT, O_RDWR);
+	fd = open(filename, O_RDWR, O_TRUNC);
 	if (fd == -1)
+			fd = open(filename, O_RDWR, O_CREAT, O_TRUNC);
+	
+	if(text_content)
 	{
-		free(buff);
-		return (0);
-	}
-
-	r = read(fd, buff, text_content);
-	if (r == -1)
-	{
-		free(buff);
-		close(fd);
-		return(0);
-	}
-	buff[r] = '\0';
-	w = write(STDOUT_FILENO, buff, r);
-	if (w < 0 || w != r)
-	{
-		free(buff);
-		close(fd);
-		return (0);
+		for (a = 0; text_content[a], a++);
+		w = write(fd, text_content, a);
+		if (a == -1)
+			return (-1);
 	}
 	close(fd);
-	free(buff);
-	return (r);
+	return (1);
 }
