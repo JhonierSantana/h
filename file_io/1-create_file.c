@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * create_flie - creates a file.
+ * create_file - creates a file.
  * @filename: File to create
  * @text_content: NULL terminated string to write to the file
  *
@@ -17,7 +17,7 @@ int create_file(const char *filename, char *text_content)
 
 	fd = open(filename, O_RDWR, O_TRUNC);
 	if (fd == -1)
-		fd = open(filename, O_CREAT, O_RDWR, O_TRUNC);
+		fd = open(filename, O_CREAT, O_RDWR, O_TRUNC, 600);
 
 	if (text_content)
 	{
