@@ -65,7 +65,7 @@ int copy(const char *file_from, const char *file_to)
 	 * Return: Always 0
 	 */
 
-	int printf(int argc, char **argv)
+	int main(int argc, char **argv)
 	{
 		int aux;
 
