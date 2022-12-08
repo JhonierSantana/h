@@ -15,7 +15,7 @@ int closefree(int fd1, int fd2, char *buff)
 }
 
 /**
- * copy - copies a file.
+ * copyfile - copies a file.
  * @file_from: File from copy
  * @file_to: File to copy.
  * Return: 1 on success, -1 on fail
@@ -75,7 +75,7 @@ int copyfile(const char *file_from, const char *file_to)
 			exit(97);
 		}
 		a = copyfile(argv[1], argv[2]);
-		if (aux == -1)
+		if (a == -1)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 			exit(98);
@@ -87,7 +87,7 @@ int copyfile(const char *file_from, const char *file_to)
 		}
 		else if (a != 1)
 		{
-			dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", aux);
+			dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", a);
 			exit(100);
 		}
 		return (0);
