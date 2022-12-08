@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * close - Closes file descriptors and frees buffer
+ * closefree - Closes file descriptors and frees buffer
  * @fd1: First file descriptor
  * @fd2: Second file descriptor
  * @buff: Buffer to free
  */
 
-int close(int fd1, int fd2, char *buff)
+int closefree(int fd1, int fd2, char *buff)
 {
 	close(fd1);
 	close(fd2);
@@ -21,7 +21,7 @@ int close(int fd1, int fd2, char *buff)
  * Return: 1 on success, -1 on fail
  */
 
-int copy(const char *file_from, const char *file_to)
+int copyfile(const char *file_from, const char *file_to)
 {
 	int fd1, fd2, from, to, a;
 	char *buff;
@@ -38,13 +38,13 @@ int copy(const char *file_from, const char *file_to)
 		from = read(fd1, buff, 1024);
 		if (from == -1)
 		{
-			close(fd1, fd2, buff);
+			closefree(fd1, fd2, buff);
 			return (-2);
 		}
 		to = write(fd2, buff, from);
 		if (to == -1)
 		{
-			close(fd1, fd2, buff);
+			closefree(fd1, fd2, buff);
 			return (-2);
 		}
 
@@ -67,25 +67,25 @@ int copy(const char *file_from, const char *file_to)
 
 	int main(int argc, char **argv)
 	{
-		int aux;
+		int a;
 
 		if (argc != 3)
 		{
 			dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 			exit(97);
 		}
-		aux = copy_file(argv[1], argv[2]);
+		a = copyfile(argv[1], argv[2]);
 		if (aux == -1)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 			exit(98);
 		}
-		else if (aux == -2)
+		else if (a == -2)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 			exit(99);
 		}
-		else if (aux != 1)
+		else if (a != 1)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", aux);
 			exit(100);
